@@ -1,0 +1,88 @@
+/*登录中的input设置*/
+
+.login-box {
+    padding-top: 20%;
+}
+
+.login-title {
+    margin-bottom: 2rem !important;
+}
+
+.login-box .login-input-box {
+    position: relative;
+}
+
+.login-box .login-input-box img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 1rem;
+    width: 1.2rem;
+    z-index: 2;
+}
+
+.login-box .login-input-box input {
+    padding-left: 2.4rem;
+}
+
+/*button的设置*/
+
+.login-form button:active {
+    outline: none;
+}
+
+.login-form button {
+    background-color: #1890ff;
+    border-color: #1890ff;
+}
+
+/*记住密码的设置*/
+.login-form .checkbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-form .other-login-method {
+    display: flex;
+    align-items: center;
+}
+
+.login-form .other-login-method h6,
+.login-form .other-login-method ul {
+    margin-bottom: 0 !important;
+}
+
+
+.form-signin {
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
